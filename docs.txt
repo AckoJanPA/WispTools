@@ -1,0 +1,15 @@
+WispTools Documentation
+
+WispTools.say(text: any)  -  like alert() in JavaScript
+WispTools.popup(text: any)  -  like prompt() in JavaScript
+WispTools.confirm(text: any)  -  like confirm() in JavaScript
+
+toNumber(value: any)  -  converts any --> number (type)
+toString(value: any)  -  converts any --> string (type)
+
+Wisp.Input.getAxisHeld(positiveKey, negativeKey)  -  if positive key held down returns 1, if negative key held down returns -1, if no or both keys are held down returns 0
+
+WispTools.Vector2.create(x: number, y: number)  -  creates a vector2 (x, y), usefull for 2D positions
+WispTools.Vector2.spriteGoTo(vec2: any)  -  sets sprite position (x, y) to vec2 (x, y) input | !!! type "any" is because I don't know how to specify Vector2 type, function needs a Vector2 input !!!
+
+More comming soon!
